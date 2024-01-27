@@ -2,14 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Parentcom from './Parentcom';
-import ParentWrap from './ParentWrap';
+import ToggleButton from './components/ToggleButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Parentcom/>
-    <ParentWrap/>
+    <ToggleButton/>
   </React.StrictMode>
 );
 
