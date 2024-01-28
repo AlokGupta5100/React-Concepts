@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import ToggleButton from './components/ToggleButton';
+import HoverEffect from './components/HoverEffect';
+import DynamicList from './components/DynamicList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ToggleButton/>
+    <ToggleButton/><br/><br/>
+    <HoverEffect/><br/><br/>
+    <DynamicList/>
   </React.StrictMode>
 );
 
