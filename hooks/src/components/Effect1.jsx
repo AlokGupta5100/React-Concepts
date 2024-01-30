@@ -22,7 +22,7 @@ const Effect1 = () => {
 
   return (
     <div>
-        <h1>Data Fetching</h1>
+        <h1>Data Fetching from temp api</h1>
         <ul>
             {data.map((post) => (
                 <li key={post.id}>{post.title}</li>
