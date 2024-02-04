@@ -4,9 +4,9 @@ const Effect1 = () => {
 
   return (
     <div>
-      <h2>srhrhd</h2>
+      <h2>this is effect</h2>
     </div>
   )
 }
 
-export default Effect1
+export default Effect1;
