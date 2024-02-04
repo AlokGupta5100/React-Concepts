@@ -4,7 +4,7 @@ const MyCont = createContext("delhi");
 
 function ParentComp() {
   return (
-    <MyCont.Provider value="noida">
+    <MyCont.Provider value="Gurugram">
       <ChildComp />
     </MyCont.Provider>
   );
