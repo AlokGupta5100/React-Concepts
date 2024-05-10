@@ -4,7 +4,7 @@ const MapComp2 = () => {
     const name = "This is javaScript expressions inside curly braces {} with variable ";
 
 function delhi(){
-    return 6*9
+    return 9*9
 };
 
   return (
